@@ -58,7 +58,7 @@ const team = [
   {
     name: "Livya George",
     role: "Full Stack Developer",
-    image: "/developers/Livya-George.webp",
+    image: "/developers/livya_george.webp",
   },
   {
     name: "Aleena Varghese",
@@ -68,17 +68,17 @@ const team = [
   {
     name: "Nicy Johnson",
     role: "Backend Developer",
-    image: "/developers/nicy",
+    image: "/developers/nicy.jpg",
   },
   {
     name: "Anusree K",
     role: "UI/UX Engineer",
-    image: "/developers/anusree",
+    image: "/developers/anusree.jpg",
   },
   {
     name: "Anugraha K R",
     role: "AI Systems Developer",
-    image: "/developers/anugraha",
+    image: "/developers/anugraha.jpg",
   },
 ];
 
@@ -86,12 +86,12 @@ const mentors = [
   {
     name: "Dr. Ramkumar S",
     role: "Technical Advisor & Mentor",
-    image: "/developers/dr ramkumar.jpg",
+    image: "/developers/dr_ramkumar.jpg",
   },
   {
     name: "Dr. Manishankar S",
     role: "Technical Advisor & Mentor",
-    image: "/developers/Dr manishankar.jpg",
+    image: "/developers/dr_manishankar.jpg",
   },
 ];
 

@@ -62,32 +62,26 @@ const getAssetPath = (path) => {
 const team = [
   {
     name: "Livya George",
-    role: "Full Stack Developer",
     image: getAssetPath("developers/livya_george.webp"),
   },
   {
     name: "Aleena Varghese",
-    role: "Frontend Developer",
     image: getAssetPath("developers/aleena.jpg"),
   },
   {
     name: "Nicy Johnson",
-    role: "Backend Developer",
     image: getAssetPath("developers/nicy.jpg"),
   },
   {
     name: "Anusree K",
-    role: "UI/UX Engineer",
     image: getAssetPath("developers/anusree.jpg"),
   },
   {
     name: "Anugraha K R",
-    role: "AI Systems Developer",
     image: getAssetPath("developers/anugraha.jpg"),
   },
   {
     name: "Joshua",
-    role: "Software Engineer",
     image: getAssetPath("developers/joshua.jpg"),
   },
 ];
@@ -95,17 +89,14 @@ const team = [
 const mentors = [
   {
     name: "Dr. Ramkumar S",
-    role: "Technical Advisor & Mentor",
     image: getAssetPath("developers/dr_ramkumar.jpg"),
   },
   {
     name: "Dr. Manishankar S",
-    role: "Technical Advisor & Mentor",
     image: getAssetPath("developers/dr_manishankar.jpg"),
   },
   {
     name: "Dr. G.R. Gnana King",
-    role: "Technical Advisor & Mentor",
     image: getAssetPath("developers/dr_gnanaking.jpg"),
   },
 ];
@@ -308,7 +299,6 @@ export default function App() {
                 />
                 <div className="team-card-info">
                   <div className="team-card-name">{member.name}</div>
-                  <div className="team-card-role">{member.role}</div>
                 </div>
               </div>
             ))}
@@ -329,7 +319,6 @@ export default function App() {
                 />
                 <div>
                   <div className="mentor-name">{mentor.name}</div>
-                  <div className="mentor-role">{mentor.role}</div>
                 </div>
               </div>
             ))}

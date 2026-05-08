@@ -85,6 +85,11 @@ const team = [
     role: "AI Systems Developer",
     image: getAssetPath("developers/anugraha.jpg"),
   },
+  {
+    name: "Joshua",
+    role: "Software Engineer",
+    image: getAssetPath("developers/joshua.jpg"),
+  },
 ];
 
 const mentors = [

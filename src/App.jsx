@@ -54,31 +54,36 @@ const products = [
   },
 ];
 
+const getAssetPath = (path) => {
+  const base = import.meta.env.BASE_URL;
+  return `${base}${path}`.replace(/\/+/g, '/');
+};
+
 const team = [
   {
     name: "Livya George",
     role: "Full Stack Developer",
-    image: "developers/livya_george.webp",
+    image: getAssetPath("developers/livya_george.webp"),
   },
   {
     name: "Aleena Varghese",
     role: "Frontend Developer",
-    image: "developers/aleena.jpg",
+    image: getAssetPath("developers/aleena.jpg"),
   },
   {
     name: "Nicy Johnson",
     role: "Backend Developer",
-    image: "developers/nicy.jpg",
+    image: getAssetPath("developers/nicy.jpg"),
   },
   {
     name: "Anusree K",
     role: "UI/UX Engineer",
-    image: "developers/anusree.jpg",
+    image: getAssetPath("developers/anusree.jpg"),
   },
   {
     name: "Anugraha K R",
     role: "AI Systems Developer",
-    image: "developers/anugraha.jpg",
+    image: getAssetPath("developers/anugraha.jpg"),
   },
 ];
 
@@ -86,12 +91,12 @@ const mentors = [
   {
     name: "Dr. Ramkumar S",
     role: "Technical Advisor & Mentor",
-    image: "developers/dr_ramkumar.jpg",
+    image: getAssetPath("developers/dr_ramkumar.jpg"),
   },
   {
     name: "Dr. Manishankar S",
     role: "Technical Advisor & Mentor",
-    image: "developers/dr_manishankar.jpg",
+    image: getAssetPath("developers/dr_manishankar.jpg"),
   },
 ];
 

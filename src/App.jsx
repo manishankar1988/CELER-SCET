@@ -98,6 +98,11 @@ const mentors = [
     role: "Technical Advisor & Mentor",
     image: getAssetPath("developers/dr_manishankar.jpg"),
   },
+  {
+    name: "Dr. G.R. Gnana King",
+    role: "Technical Advisor & Mentor",
+    image: getAssetPath("developers/dr_gnanaking.jpg"),
+  },
 ];
 
 const technologies = [

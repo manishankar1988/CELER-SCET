@@ -760,9 +760,9 @@ body {
 
 .mentors-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  max-width: 800px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -958,7 +958,7 @@ body {
 
 @media (max-width: 768px) {
   .team-grid { grid-template-columns: repeat(2, 1fr); }
-  .mentors-grid { grid-template-columns: 1fr; }
+  .mentors-grid { grid-template-columns: repeat(2, 1fr); }
   .hero-metrics { grid-template-columns: 1fr 1fr; }
   .hero-actions { flex-direction: column; }
   .hero h1 { font-size: 2.25rem; }
@@ -966,5 +966,6 @@ body {
 
 @media (max-width: 480px) {
   .team-grid { grid-template-columns: 1fr; }
+  .mentors-grid { grid-template-columns: 1fr; }
   .hero-metrics { grid-template-columns: 1fr; }
 }
